@@ -1,6 +1,6 @@
 Name:           sdlmame-data-roms
 Version:        0120
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        ROMs used for the SDLMAME package
 
 Group:          Amusements/Games
@@ -47,6 +47,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Jul 30 2008 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info - 0120-2
+- rebuild for buildsys cflags issue
+
 * Sun Oct 28 2007 Julian Sikorski <belegdol[at]gmail[dot]com> - 0120-1
 - First attempt at breaking down the package into smaller pieces
 - Removed everything except robby due to copyright issues
